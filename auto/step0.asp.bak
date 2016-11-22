@@ -1,0 +1,27 @@
+<!--#include file="../inc/mdb.asp"-->
+<!--#include file="../inc/inc.asp"-->
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<%
+userpath=session("userpath")
+	filepath="../uploadfile/"&userpath
+	filepath=server.MapPath(filepath)
+	
+	
+list_from = filepath '储存当前源工作目录 
+Set fso = CreateObject("Scripting.FileSystemObject") 
+Set Fold = fso.GetFolder(list_from) '获取Folder对象 
+Set fc = Fold.Files '获取文件记录集 
+Set mm = Fold.SubFolders '获取目录记录集 
+For Each f1 in fc
+	file_from = list_from & "/" & f1.name '生成文件地址(源) 
+	fso.DeleteFile file_from,true
+next
+response.Redirect("step1.asp")
+%>
+
+</body>
+</html>

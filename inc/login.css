@@ -1,0 +1,74 @@
+BODY {
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	SCROLLBAR-FACE-COLOR: #ededed;
+	SCROLLBAR-HIGHLIGHT-COLOR: #fafafa;
+	SCROLLBAR-SHADOW-COLOR: #bdbdbd;
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+	SCROLLBAR-ARROW-COLOR: #939393;
+	SCROLLBAR-TRACK-COLOR: #f4f4f4;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	font-size: 9pt;
+}
+.INPUT {
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-RIGHT: #666666 1px solid;
+	BORDER-TOP: #666666 1px solid;
+	COLOR: #666666;
+	HEIGHT: 18px;
+	border-color: #666666 #666666 #666666 #666666;
+	font-size: 9pt;
+	font-family: "宋体";
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: 宋体,Dotum,DotumCh, Arial;
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: 宋体,Dotum,DotumChe,Arial;line-height: 150%; 
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体,Dotum,DotumCh, Arial; TEXT-DECORATION: none;line-height: 150%; 
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体,Dotum,DotumCh, Arial; TEXT-DECORATION: none;line-height: 150%; 
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #6440da; FONT-FAMILY: 宋体,Dotum,DotumCh, Arial; TEXT-DECORATION: none;line-height: 150%; 
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #6440da; FONT-FAMILY: 宋体,Dotum,DotumCh, Arial; TEXT-DECORATION: underline;line-height: 150%; 
+}
+.font {
+	font-size: 9px;
+	color: #FF0000;
+	text-decoration: none;
+	background-color: #f2f2f2;
+}
+
+
+.input_login
+{
+  border-right: #ffffff 0px solid; border-top: #ffffff 0px solid; font-size: 9pt;
+  border-left: #ffffff 0px solid; border-bottom: #ffffff 0px solid; height: 16px;
+}
+.input_val
+{
+  border-right: #ffffff 0px solid; border-top: #ffffff 0px solid; font-size: 9pt;
+  border-left: #ffffff 0px solid; border-bottom: #c0c0c0 1px solid; height: 16px;
+  background-color: #fdfdfd;
+}
+
+.input_submit {
+	font-size: 9pt;
+	border: 1px solid #DEDFDE;
+	background-color: #ffffff;
+	}
+.input_text {
+	font-size: 9pt;
+	border: 1px solid #DEDFDE;
+	}

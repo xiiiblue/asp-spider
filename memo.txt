@@ -1,0 +1,1 @@
+insert into nnews(SMT_ly,SMT_addr,SMT_title,SMT_news,SMT_date,SMT_key,SMT_key1,SMT_key2,SMT_key3,nsmallarea,nbigarea,keywords) select SMT_ly,SMT_addr,SMT_title,SMT_news,SMT_date,SMT_key,SMT_key1,SMT_key2,SMT_key3,nsmallarea,nbigarea,keywords from h000

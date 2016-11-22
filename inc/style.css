@@ -1,0 +1,50 @@
+.table1 {
+	border: 0px none #000000;
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	border-color: #ECE9D8;
+	padding: 1;
+}
+legend {
+	font-family: "ËÎÌו";
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000FF;
+}
+
+fieldset {
+	height: auto;
+	width: 600px;
+}
+
+.title1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000FF;
+	background-color: #00CCFF;
+}
+
+a:link {
+	color: #0000FF;
+}
+.readme {
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	color: #0000FF;
+}
+
+a:hover {
+	color: #0000FF;
+}
+a:visited {
+	color: #0000FF;
+}
+a:active {
+	color: #0000FF;
+}
+body {
+	background-color: #d6dff7;
+}
+table {
+	font-size: 12px;
+}

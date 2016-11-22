@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>管理登陆</title>
+<link href="inc/style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#CCEEFF">
+<div align="right"><a href="reg.asp">注册</a></div>
+<br><br>
+<br>
+<br><br>
+  <script language="javascript">
+	<!--//
+	function checksignup() {
+		if ( document.form.username.value == '' ) {
+			window.alert('请输入管理账号!!');
+			document.form.username.focus();
+		}
+		else if ( document.form.userpass.value == '' ) {
+			window.alert('请输入管理账号密码!!');
+			document.form.userpass.focus();
+		}
+		else if ( document.form.regjm1.value == '' ) {
+			window.alert('请输入网页上显示的5位数的验证码\n如果看不到请点击后面的看不到连接!!');
+			document.form.regjm1.focus();
+		}
+       else {
+		return true;
+			}
+		return false;
+	}
+	//-->
+	</script>
+
+<TABLE WIDTH=488 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+  <TR> 
+    <TD width="488"><img src="img/login.gif" width="488" height="43"></TD>
+  </TR>
+</TABLE>
+<form  name="form1" method="get" action="logincheck.asp">
+<input name="regjm" type="hidden" value="<%=regjm%>">
+  <table border="0" cellspacing="0" width="172" cellpadding="0" align="center" style="border:1px #cccccc solid" bgcolor=#efefef>
+    <tr align="center"> 
+      <td width="69" height="28">帐　号</td>
+      <td width="103"><div align="left"><input type="text" name="username" size="12" class=input></div></td>
+    </tr>
+    <tr align="center"> 
+      <td height="28">密　码</td>
+      <td><div align="left"><input name="userpass" type="password" size="12" maxlength="12"></div></td>
+    </tr>
+    <tr> 
+      <td align="center" height=28> <input type="submit" name="Submit" value=" 确 认 " class="input1"></td>
+      <td align="center" height=28><input type="reset" name="Submit2" value=" 复 位 " class="input1"></td>
+    </tr>
+  </table>
+</form>
+<div align="center">
+<p class="title2">请先下载</p>
+<p><a href="software/upload.zip">上传插件</a> <a href="software/Maxthon.exe">傲游</a>  <a href="software/flashget.exe">FlashGet</a> <a href="software/Webdup.rar">WebDup</a> <a href="software/OfflineExplorer.rar">OfflineExplorer</a> <a href="software/wincmd.exe">WindowsCommander</a> <a href="software/ShareShield.exe">共享神盾</a></p>
+</div>
+</body>
+</html>
